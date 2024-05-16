@@ -11,8 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 500px;
-  background-color: aqua;  
+  background-color: aqua;
+  gap: 40px;  
 }
 
 .card {
