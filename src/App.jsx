@@ -1,30 +1,21 @@
 import "./App.css"
 
-import Banner from "./components/Banner"
-
-import Broadcast from "./assets/images/svg/broadcast-svgrepo-com.svg"
-import Card from "./assets/images/svg/card-holder-svgrepo-com.svg"
-import Coffee from "./assets/images/svg/coffee-svgrepo-com.svg"
-import Collect from "./assets/images/svg/collect-svgrepo-com.svg"
-import Earphone from "./assets/images/svg/earphone-svgrepo-com.svg"
-import Tips from "./assets/images/svg/tips-svgrepo-com.svg"
+import Layout from "./components/Layout";
+import SuporteLogo from "./assets/images/svg/suporte-logo.jpeg"
 
 function App() {
   return (
     <body>
 
-      <div className="card">
-        <h1>React Course</h1>
-        <p>Front-End Javascript</p>
-      </div>
-
-      <Banner title="titulo" description="descrição" image={Broadcast} />
-      <Banner title="titulo" description="descrição" image={Card} />
-      <Banner title="titulo" description="descrição" image={Coffee} />
-      <Banner title="titulo" description="descrição" image={Collect} />
-      <Banner title="titulo" description="descrição" image={Earphone} />
-      <Banner title="titulo" description="descrição" image={Tips} />
-
+      <Layout 
+        tag="react" 
+        title="Curso React - Senai" 
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat." 
+        buttonLeftTitle="Leia mais" 
+        buttonRightTitle="Documentação" 
+        image={SuporteLogo} 
+      />
+      
     </body>
   );
 }
