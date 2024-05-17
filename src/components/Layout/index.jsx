@@ -21,7 +21,7 @@ export default function Layout(props) {
             </button>
           </div>
         </div>
-        <img src={props.image ? props.image : EmptyState} alt="" />
+        <img src={props.image ? props.image : EmptyState} alt={props.imageAlt ? props.imageAlt : "imagem de fundo vazio"} />
       </div>
     </div>
   )

@@ -14,6 +14,7 @@ function App() {
         buttonLeftTitle="Leia mais" 
         buttonRightTitle="Documentação" 
         image={SuporteLogo} 
+        imageAlt="logo da suporte de domingo"
       />
       
     </body>
