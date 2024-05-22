@@ -1,15 +1,12 @@
 import "./App.css"
+import TeamComposition from "./components/Team";
 
-import Content from "./components/Team/src/components/content";
-import Main from "./components/Team/src/components/main";
-import Section from "./components/Team/src/components/section";
+
 
 function App() {
   return (
     <body>
-      <Section />
-      <Content />
-      <Main />
+      <TeamComposition />
     </body>
   );
 }
