@@ -1,9 +1,6 @@
-import '../../styles.css'
+import '../../../styles.css'
 
-import EmptyImage from '../assets/images/Empty-Image.png'
-import Dribble from '../assets/images/Dribble.png'
-import LinkedIn from '../assets/images/LinkedIn.png'
-import X from '../assets/images/X.png'
+import { Dribble, EmptyImage, Linkedin, X } from "../../assets/images"
 
 export default function Content() {
     return (
@@ -18,7 +15,7 @@ export default function Content() {
             </p>
             <div className="content-icons">
                 <a href="https://br.linkedin.com/" target='_blank'>
-                    <img src={LinkedIn} alt="" />
+                    <img src={Linkedin} alt="" />
                 </a>
                 <a href="https:/x.com/" target='_blank'>
                     <img src={X} alt="" />

@@ -1,4 +1,5 @@
 .content-container {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,6 +73,7 @@
 }
 
 .main-container {
+    margin-top: 96px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -100,4 +102,12 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 112px;
 }
