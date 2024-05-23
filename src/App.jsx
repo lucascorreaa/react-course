@@ -1,12 +1,13 @@
 import "./App.css"
-import TeamComposition from "./components/Team";
+import ContactComposition from "./components/Contact";
+
 
 
 
 function App() {
   return (
     <body>
-      <TeamComposition />
+      <ContactComposition />
     </body>
   );
 }
