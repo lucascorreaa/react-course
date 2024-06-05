@@ -1,0 +1,4 @@
+.titulo { /* OBS: Ainda que o componente Navbar tenha um elemento com esse mesmo nome de classe, os estilos são exclusivos  */
+    font-size: 16px;
+    text-transform: uppercase;
+}
