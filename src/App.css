@@ -14,21 +14,3 @@ body {
   width: 100%;
   gap: 40px;  
 }
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.card h1 {
-    font-size: 40px;
-    color: purple;
-}
-
-.card p {
-    font-size: 25px;
-    color: blue;
-}

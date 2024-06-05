@@ -1,14 +1,10 @@
 import "./App.css"
-import Titulo from "./styles/css-modules/components/Titulo"
-import Headline from "./styles/css-modules/components/Navbar"
-import Square from "./styles/styled-component/components/Square";
+import Accordion from "./hooks/components/accordion"
 
 function App() {
   return (
     <body>
-      <Headline />
-      <Titulo />
-      <Square />  
+      <Accordion />
     </body>
   );
 }
