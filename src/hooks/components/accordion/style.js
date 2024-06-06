@@ -13,7 +13,18 @@ export const AccordionContent = styled.div`
     justify-content: center;
     padding: 16px;
     width: 300px;
-    
+    transition: all 240ms;
+    animation: slide-in 0.2s ease-in-out;
+
+    @keyframes slide-in {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(10%);
+        }
+    }
 `
 
 export const ContentText = styled.p`
