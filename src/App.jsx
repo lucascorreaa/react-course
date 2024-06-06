@@ -1,13 +1,11 @@
 import "./App.css"
-import Accordion from "./hooks/components/accordion"
+import DropdownMenu from "./hooks/components/DropdownMenu";
+
 
 function App() {
   return (
     <body>
-      <Accordion />
-      <Accordion />
-      <Accordion />
-      <Accordion />
+      <DropdownMenu />
     </body>
   );
 }
