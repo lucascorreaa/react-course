@@ -13,6 +13,7 @@ export const AccordionContent = styled.div`
     justify-content: center;
     padding: 16px;
     width: 300px;
+    
 `
 
 export const ContentText = styled.p`
@@ -25,6 +26,7 @@ export const AccordionContainer = styled.div`
     height: 50px;
     display: flex;
     padding-left: 20px;
+    padding-right: 10px;
     align-items: center;
     justify-content: space-between;
 `

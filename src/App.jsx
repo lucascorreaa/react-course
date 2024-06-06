@@ -5,6 +5,9 @@ function App() {
   return (
     <body>
       <Accordion />
+      <Accordion />
+      <Accordion />
+      <Accordion />
     </body>
   );
 }

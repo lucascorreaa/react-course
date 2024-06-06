@@ -15,7 +15,7 @@ export default function Accordion() {
   // controle de estado do content
   const [ visible, setVisible ] = useState(false)
   // validação da direção da seta
-  const handleAngle = visible == false ? AngleDown : AngleUp
+  const handleAngle = visible ? AngleDown : AngleUp
   // função para abrir e fechar o accordion
   function HandleAccordion() {
     return setVisible(!visible)
