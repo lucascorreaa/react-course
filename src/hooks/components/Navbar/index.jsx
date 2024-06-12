@@ -4,7 +4,12 @@ import DropdownMenu from "../DropdownMenu"
 
 export default function Navbar() {
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
+
+    // Arrow function
+    const handleMenu = () => {
+      return setOpen(!open)
+    }
 
     const listPages = [
         {
@@ -12,15 +17,15 @@ export default function Navbar() {
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page two",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page three",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
         {
-          title: "Page one",
+          title: "Page four",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
         },
       ];
@@ -32,7 +37,7 @@ export default function Navbar() {
                 <S.Link>Link 1</S.Link>
                 <S.Link>Link 2</S.Link>
                 <S.Link>Link 3</S.Link>
-                <S.Link>Link 4</S.Link>
+                <S.Link onClick={handleMenu}>Link 4</S.Link>
                 {
                     open && <DropdownMenu pages={listPages} /> 
                 }
