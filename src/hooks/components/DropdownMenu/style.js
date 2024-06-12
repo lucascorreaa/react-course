@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     position: absolute;
-    top: 60px;
+    top: 64px;
     right:140px;
     width: 408px;
     height: auto;
@@ -10,6 +10,7 @@ export const Container = styled.div`
 
     display: flex;
     flex-direction: column;
+    background-color: white;
     border: 1px solid black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `
