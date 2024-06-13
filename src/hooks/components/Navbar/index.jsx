@@ -36,10 +36,14 @@ export default function Navbar() {
             <S.Logo>Logo</S.Logo>
             <S.Nav>
                 <S.Link>
-                  <Link to="/teams" >Teams</Link>
+                  <Link to="/page-one" >Page One</Link>
                 </S.Link>
-                <S.Link>Link 2</S.Link>
-                <S.Link>Link 3</S.Link>
+                <S.Link>
+                  <Link to="/page-two">Page Two</Link>
+                </S.Link>
+                <S.Link>
+                  <Link to="/page-three">Page Three</Link>
+                </S.Link>
                 <S.Link onClick={handleMenu}>Link 4</S.Link>
                 {
                     open && <DropdownMenu pages={listPages} /> 
