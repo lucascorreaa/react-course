@@ -1,14 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./hooks/components/Navbar";
 import TeamComposition from "./components/Team"
+import Home from "./styles/tailwindcss/components/Home";
 
-function Home() {
-  return (
-    <Navbar />
-  )
-}
 
 function App() {
   return (
