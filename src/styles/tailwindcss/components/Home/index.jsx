@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <main>
@@ -6,7 +8,7 @@ export default function Home() {
         <h2 className="mt-4 text-2xl">by Suporte de Domingo</h2>
       </section>
       <p className="text-end mt-4 text-purple-800 underline underline-offset-8">
-        Rei do Tigrinho
+        <Link to="/navbar">ir para o nav</Link>
       </p>
     </main>
   );
