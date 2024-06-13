@@ -6,13 +6,15 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import Navbar from "./hooks/components/Navbar"
+import GetCep from "./request";
+
 
 
 function App() {
   return (
     <body>
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="/" Component={GetCep} />
         <Route path="/navbar" Component={Navbar} />
         <Route path="/page-one" Component={PageOne} />
         <Route path="/page-two" Component={PageTwo} />
